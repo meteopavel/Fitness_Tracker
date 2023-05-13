@@ -40,6 +40,8 @@ class Training:
                  duration: float,
                  weight: float,
                  ) -> None:
+        # Докстринги для __init__ вынужден оставить из-за PEP8
+        # Добавление D107 в .flake8 не помогло
         """Конструктор базового класса."""
         self.action = action
         self.duration = duration
