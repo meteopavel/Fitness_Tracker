@@ -1,6 +1,8 @@
 [flake8]
 disable-noqa = True
-ignore = W503
+ignore = 
+    W503, 
+    D107
 filename =
     ./homework.py
 max-complexity = 10
