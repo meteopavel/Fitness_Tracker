@@ -1,5 +1,6 @@
-# Temporary files
-tmp.py
+# Review iterations
+initial_hw.py
+iteration_1.py
 
 # Byte-compiled / optimized / DLL files
 __pycache__/
