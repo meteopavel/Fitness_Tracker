@@ -40,6 +40,7 @@ class Training:
                  duration: float,
                  weight: float,
                  ) -> None:
+        """Конструктор базового класса."""
         self.action = action
         self.duration = duration
         self.weight = weight
@@ -99,6 +100,7 @@ class SportsWalking(Training):
                  weight: float,
                  height: float,
                  ) -> None:
+        """Конструктор дочернего класса SportsWalking."""
         super().__init__(action, duration, weight)
         self.height = height
 
@@ -127,6 +129,7 @@ class Swimming(Training):
                  length_pool: float,
                  count_pool: int,
                  ) -> None:
+        """Конструктор дочернего класса Swimming."""
         super().__init__(action, duration, weight)
         self.length_pool = length_pool
         self.count_pool = count_pool
