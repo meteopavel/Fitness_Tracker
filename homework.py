@@ -1,9 +1,6 @@
 """Домашнее задание по ООП."""
 
-
-import typing
 from dataclasses import asdict, dataclass
-from typing import Type
 
 
 @dataclass
@@ -158,7 +155,7 @@ class Swimming(Training):
 
 def read_package(workout_type: str, data: list) -> Training:
     """Прочитать данные полученные от датчиков."""
-    workout_classes: typing.Dict[str, Type[Training]] = {
+    workout_classes: dict[str, type[Training]] = {
         'RUN': Running,
         'WLK': SportsWalking,
         'SWM': Swimming
