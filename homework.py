@@ -1,4 +1,4 @@
-"""Домашнее задание по ООП."""
+"""Фитнес-трекер ООП."""
 
 from dataclasses import asdict, dataclass
 
